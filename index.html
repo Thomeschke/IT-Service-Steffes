@@ -10,28 +10,88 @@
 
   <header>
     <h1>IT-Service Steffes</h1>
-    <p>Ihr zuverlässiger Partner für IT-Dienstleistungen</p>
+    <p>Ihr zuverlässiger IT-Fachmann für zuhause</p>
   </header>
 
+  <nav>
+    <a href="#ueber-mich">Über mich</a>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section id="ueber-mich">
+    <h2>Über mich</h2>
+    <p>
+      Mein Name ist Steffes, ich bin ausgebildeter Fachinformatiker der Fachrichtung Systemintegration
+      und arbeite hauptberuflich als IT-Security Consultant. Nebenberuflich absolviere ich derzeit
+      meinen Bachelor of Science in Cyber Security.
+    </p>
+    <p>
+      Mit knapp fünf Jahren Berufserfahrung in der IT helfe ich Privatpersonen bei alltäglichen
+      IT-Problemen — unkompliziert, zuverlässig und verständlich erklärt.
+    </p>
+  </section>
+
   <section id="leistungen">
-    <h2>Meine Dienstleistungen</h2>
-    <ul>
-      <li>Leistung 1</li>
-      <li>Leistung 2</li>
-      <li>Leistung 3</li>
-    </ul>
+    <h2>Meine Leistungen</h2>
+    <div class="leistungen-grid">
+
+      <div class="leistung">
+        <h3>Software-Installation & -Deinstallation</h3>
+        <p>Saubere Installation neuer Programme sowie vollständige Entfernung veralteter oder unerwünschter Software.</p>
+      </div>
+
+      <div class="leistung">
+        <h3>Sicherheitsupdates & Systemwartung</h3>
+        <p>Aktualisierung Ihres Betriebssystems und Ihrer Software, um Sicherheitslücken zu schließen und die Performance zu verbessern.</p>
+      </div>
+
+      <div class="leistung">
+        <h3>Viren- & Malware-Entfernung</h3>
+        <p>Erkennung und Beseitigung von Schadsoftware sowie Empfehlungen zum zukünftigen Schutz Ihres Systems.</p>
+      </div>
+
+      <div class="leistung">
+        <h3>Einrichtung von Geräten</h3>
+        <p>Ersteinrichtung von PCs, Laptops, Druckern und weiteren Geräten — schnell und unkompliziert.</p>
+      </div>
+
+      <div class="leistung">
+        <h3>Hilfestellung bei Software</h3>
+        <p>Unterstützung bei der Nutzung von Programmen, Office-Anwendungen, E-Mail-Clients und mehr.</p>
+      </div>
+
+      <div class="leistung">
+        <h3>IT-Sicherheitsberatung</h3>
+        <p>Persönliche Beratung zu sicherem Umgang im Internet, sicheren Passwörtern und dem Schutz Ihrer Daten.</p>
+      </div>
+
+    </div>
   </section>
 
   <section id="kontakt">
     <h2>Kontakt</h2>
+    <p>Sie haben ein IT-Problem oder eine Frage? Ich freue mich auf Ihre Nachricht.</p>
+
+    <div class="kontakt-info">
+      <p>📞 <a href="tel:+4917663713746">+49 176 63713746</a></p>
+      <p>✉️ <a href="mailto:it-service@team-steffes.de">it-service@team-steffes.de</a></p>
+    </div>
+
     <form action="https://api.web3forms.com/submit" method="POST">
       <input type="hidden" name="access_key" value="5bdc9924-547a-4414-980c-228b1a928a6b">
-      <input type="text" name="name" placeholder="Dein Name" required>
-      <input type="email" name="email" placeholder="Deine E-Mail" required>
-      <textarea name="nachricht" placeholder="Deine Nachricht" required></textarea>
-      <button type="submit">Absenden</button>
+      <input type="hidden" name="subject" value="Neue Kontaktanfrage – IT-Service Steffes">
+      <input type="text" name="name" placeholder="Ihr Name" required>
+      <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+      <input type="tel" name="telefon" placeholder="Ihre Telefonnummer (optional)">
+      <textarea name="nachricht" placeholder="Ihre Nachricht" required></textarea>
+      <button type="submit">Nachricht absenden</button>
     </form>
   </section>
+
+  <footer>
+    <p>&copy; 2026 IT-Service Steffes &nbsp;|&nbsp; <a href="mailto:it-service@team-steffes.de">it-service@team-steffes.de</a></p>
+  </footer>
 
 </body>
 </html>
